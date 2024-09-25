@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "WebApplication1.Areas.Users.controllers.userController",
+    "Method": "create",
+    "RelativePath": "api/user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "WebApplication1.models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Areas.Auth.controllers.authController",
+    "Method": "login",
+    "RelativePath": "login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "WebApplication1.Areas.Auth.Dto.userDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
